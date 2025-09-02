@@ -34,17 +34,68 @@
 
 #===================CHAPTER 4 PRACTICE SET======================
 
-fruits = []
-fruit1 = input("Enter the Fruit name: ")
-fruits.append(fruit1)
-fruit2 = input("Enter the Fruit name: ")
-fruits.append(fruit2)
-fruit3 = input("Enter the Fruit name: ")
-fruits.append(fruit3)
-fruit4 = input("Enter the Fruit name: ")
-fruits.append(fruit4)
-fruit5 = input("Enter the Fruit name: ")
-fruits.append(fruit5)
-fruit6 = input("Enter the Fruit name: ")
-fruits.append(fruit6)
-print(fruits)
+# fruits = []
+# fruit1 = input("Enter the Fruit name: ")
+# fruits.append(fruit1)
+# fruit2 = input("Enter the Fruit name: ")
+# fruits.append(fruit2)
+# fruit3 = input("Enter the Fruit name: ")
+# fruits.append(fruit3)
+# fruit4 = input("Enter the Fruit name: ")
+# fruits.append(fruit4)
+# fruit5 = input("Enter the Fruit name: ")
+# fruits.append(fruit5)
+# fruit6 = input("Enter the Fruit name: ")
+# fruits.append(fruit6)
+# print(fruits)
+
+
+
+# =====================CHAPTER 5 PRACTICE SET===========================
+# words = {
+#     "madat": "help",
+#     "kursi": "chair",
+#     "billi": "cat"
+# }
+# word =input("enter the word you want meaning of: ")
+# print(words[word])
+
+
+
+# s = set()
+# number1 = int(input("enter the number1: "))
+# s.add(number1)
+# number2 = int(input("enter the number2: "))
+# s.add(number2)
+# print(s)
+
+
+
+d = {}
+name = input("enter your name: ")
+language = input("enter language name: ")
+d.update({name: language})
+
+name = input("enter your name: ")
+language = input("enter language name: ")
+d.update({name: language})
+
+name = input("enter your name: ")
+language = input("enter language name: ")
+d.update({name: language})
+
+name = input("enter your name: ")
+language = input("enter language name: ")
+d.update({name: language})
+
+name = input("enter your name: ")
+language = input("enter language name: ")
+d.update({name: language})
+
+name = input("enter your name: ")
+language = input("enter language name: ")
+d.update({name: language})
+
+print(d)                 #the values entered later will be updated
+
+
