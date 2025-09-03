@@ -71,31 +71,78 @@
 
 
 
-d = {}
-name = input("enter your name: ")
-language = input("enter language name: ")
-d.update({name: language})
+# d = {}
+# name = input("enter your name: ")
+# language = input("enter language name: ")
+# d.update({name: language})
 
-name = input("enter your name: ")
-language = input("enter language name: ")
-d.update({name: language})
+# name = input("enter your name: ")
+# language = input("enter language name: ")
+# d.update({name: language})
 
-name = input("enter your name: ")
-language = input("enter language name: ")
-d.update({name: language})
+# name = input("enter your name: ")
+# language = input("enter language name: ")
+# d.update({name: language})
 
-name = input("enter your name: ")
-language = input("enter language name: ")
-d.update({name: language})
+# name = input("enter your name: ")
+# language = input("enter language name: ")
+# d.update({name: language})
 
-name = input("enter your name: ")
-language = input("enter language name: ")
-d.update({name: language})
+# name = input("enter your name: ")
+# language = input("enter language name: ")
+# d.update({name: language})
 
-name = input("enter your name: ")
-language = input("enter language name: ")
-d.update({name: language})
+# name = input("enter your name: ")
+# language = input("enter language name: ")
+# d.update({name: language})
 
-print(d)                 #the values entered later will be updated
+# print(d)                 #the values entered later will be updated
 
 
+# ======================CHAPTER 6 PRACTICE SET============================
+
+# a = int(input("enter the num A: "))
+# b = int(input("enter the num B: "))
+# c = int(input("enter the num C: "))
+# d = int(input("enter the num D: "))
+# if(a>b):
+#     print("A is greater")
+
+# elif(b>c):
+#     print("B is greater")
+
+# elif(c>d):
+#     print("C is greater")
+
+# elif(d>a):
+#     print("D is greater")
+
+
+
+# ===================QUESTION NO: 3===========================
+# m1 = "Make a lot of money"
+# m2 = "buy now"
+# m3 = "subscribe this"
+# m4 = "click this"
+
+# message = input("Enter you comment: ")
+# if(m1 in message or m2 in message or m3 in message or m4 in message):
+#     print("this comment is spam")
+# else:
+#     print("this comment is not a spam")
+
+
+
+
+username = input("Enter your username: ")
+if(len(username)>10):
+    print("contains more than 10 characters")
+else:
+    print("contains less than 10 characters")
+
+
+l = ["harry", "krishna", "pinki", "ritu"]
+if(username in l):
+    print("your name is in the list")
+else:
+    print("your name is not present in the list")
